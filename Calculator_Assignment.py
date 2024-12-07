@@ -5,8 +5,7 @@ def arithmetic_calculation():
     symbol = input ('input the aritmetic symbol of the operation you wish to perform: ')
 
     if symbol == '+':
-        added = first_number + second_number4
-
+        added = first_number + second_number
         return added
     elif symbol == '-':
         subtracted = first_number - second_number
